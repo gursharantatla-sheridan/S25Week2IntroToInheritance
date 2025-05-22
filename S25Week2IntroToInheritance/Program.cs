@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DerivedClass objDerived = new DerivedClass();
+            objDerived.myPublicVar = 1;
         }
     }
 }
